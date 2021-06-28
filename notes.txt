@@ -1,0 +1,15 @@
+1 - create a server
+2-  use a data base (mongoDB)
+3- connect to the database 
+4- create a model
+name: string,
+email: string,
+phone: number
+ SQL  || NoSQL 
+structered : tables || not structered : documents
+
+
+SNIPPET
+
+---- set up mongoDB ------
+- create an account

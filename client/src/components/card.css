@@ -1,0 +1,43 @@
+.userCard {
+  width: 26%;
+  height: 250px;
+  background-color: transparent;
+  border: 1px solid cornflowerblue;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.userCard:hover {
+  border-color: cyan;
+}
+
+.userCard h3 {
+  color: white;
+}
+.userCard span {
+  width: 20px;
+  color: gray;
+  border-radius: 50%;
+  background-color: white;
+  text-align: center;
+}
+.btns {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+.userCard button {
+  width: 80px;
+  height: 30px;
+  background-color: transparent;
+  color: white;
+  border: 1px solid cornflowerblue;
+  cursor: pointer;
+}
+.userCard button:hover {
+  border-color: cyan;
+}
